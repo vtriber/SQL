@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS albums (
 CREATE TABLE IF NOT EXISTS tracks (
 	id SERIAL PRIMARY KEY,
 	name VARCHAR(40) NOT NULL,
-	duration INTEGER NOT NULL,
+	duration REAL NOT NULL,
 	album_id INTEGER NOT null REFERENCES albums(id)
 );
 
