@@ -346,6 +346,9 @@ INSERT INTO perf_gen
 VALUES(7, 10);
 
 INSERT INTO perf_gen
+VALUES(1, 10);
+
+INSERT INTO perf_gen
 VALUES(3, 5);
 
 INSERT INTO perf_gen
@@ -359,3 +362,6 @@ VALUES(5, 9);
 
 INSERT INTO perf_gen
 VALUES(6, 7);
+
+INSERT INTO perf_gen
+VALUES(5, 5);
